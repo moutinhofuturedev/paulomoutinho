@@ -56,21 +56,21 @@ function App() {
         <link rel='canonical' href='https://estheragbaje.dev/' />
         <meta property='og:locale' content='en_US' />
         <meta property='og:type' content='website' />
-        <meta property='og:title' content='Esther Agbaje | Portfolio' />
-        <meta property='og:description' content='Esther Agbaje Portfolio' />
+        <meta property='og:title' content='Paulo Moutinho | Portfolio' />
+        <meta property='og:description' content='Paulo Moutinho Portfolio' />
         <meta property='og:url' content='https://estheragbaje.dev/' />
         <meta property='og:site_name' content='Online Portfolio' />
         <meta property='og:image' content='yourimage.jpg' />
         <meta
           property='og:image:secure_url'
-          content='/assets/esther_agbaje_cover.png'
+          content='/assets/paulomoutinho.jpg'
         />
         <meta property='og:image:width' content='1280' />
         <meta property='og:image:height' content='720' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:description' content='Paulo Moutinho Portfolio' />
         <meta name='twitter:title' content='Paulo Moutinho | Portfolio' />
-        <meta name='twitter:image' content='/assets/esther_agbaje_cover.png' />
+        <meta name='twitter:image' content='/assets/paulomoutinho.jpg' />
       </Head>
       <Box bg='generalBackground' color='bodyText'>
         <Header />
@@ -201,7 +201,7 @@ function App() {
             </Text>
             <Button
               as='a'
-              href='mailto:estheroagbaje@gmail.com'
+              href='mailto:paulo_vicali@icloud.com'
               variant='outline'
               marginY='60px'
               size='lg'
