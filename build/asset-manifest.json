@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62fb3ad2.chunk.css",
+    "main.js": "/static/js/main.e7344b3c.chunk.js",
+    "main.js.map": "/static/js/main.e7344b3c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.e3e831b3.chunk.js": "/static/js/2.e3e831b3.chunk.js",
+    "static/js/2.e3e831b3.chunk.js.map": "/static/js/2.e3e831b3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6d8fd41270ce1751a576755b736584c4.js": "/precache-manifest.6d8fd41270ce1751a576755b736584c4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.62fb3ad2.chunk.css.map": "/static/css/main.62fb3ad2.chunk.css.map",
+    "static/js/2.e3e831b3.chunk.js.LICENSE": "/static/js/2.e3e831b3.chunk.js.LICENSE",
+    "static/media/esther_agbaje_cover.png": "/static/media/esther_agbaje_cover.93ddb67b.png",
+    "static/media/folasade_agbaje.jpg": "/static/media/folasade_agbaje.623c7c8c.jpg",
+    "static/media/rccg_hog.png": "/static/media/rccg_hog.e6ff0242.png",
+    "static/media/rick_morty.png": "/static/media/rick_morty.3eaf5536.png",
+    "static/media/trackdrills.png": "/static/media/trackdrills.be5e5079.png",
+    "static/media/wunderlist.png": "/static/media/wunderlist.3e511bc1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.e3e831b3.chunk.js",
+    "static/css/main.62fb3ad2.chunk.css",
+    "static/js/main.e7344b3c.chunk.js"
+  ]
+}
