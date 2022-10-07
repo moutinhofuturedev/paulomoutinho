@@ -2,9 +2,7 @@ import {
   Box,
   Button,
   Flex,
-  HStack,
   IconButton,
-  Switch,
   useColorMode,
   useColorModeValue,
 } from '@chakra-ui/react';

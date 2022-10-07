@@ -16,24 +16,24 @@ function AboutMe() {
       <Box maxWidth='500px' id='about-me'>
         <SectionHeading number='03.'>Sobre mim</SectionHeading>
         <Text paddingY='10px' color='bodyText'>
-          Olá! Eu sou o Paulo, um desenvolvedor Front End na Via. Moro em 
+          Olá! Eu sou o Paulo, um desenvolvedor de software com foco em front end. Moro em 
           Suzano - SP, Brasil.
         </Text>
         <Text paddingY='10px' color='bodyText'>
-          Through my experience at Chakra UI, I’ve had the opportunity to
-          contribute to open source, advocate towards building a faster web and
-          creating a vibrant developer community.
+          Minha jornada na programação começou em 2021, depois de anos fadigado na logística, fiz um curso básico de Javascript no Senai 
+          e logo depois, conheci a Rocketseat, onde me apaixonei ainda mais pelo programação e o ecosistema 
+          em torno do Javascript.
           <Text paddingY='20px' color='bodyText'>
-            In my previous role at Animalz, I leveraged my knowledge and
-            experience as a software developer to create relevant, trustworthy
-            content for several technical audiences. The topic span from
-            accessibility to test automation, localization, etc
+            Atualmente, faço parte da Viahub, o HUB tecnológico da Via e voltado para o E-commerce. 
+            Sou da squad de SEO, e sou responsável por desenvolver através de código, estratégias e métricas
+            para melhorar o SEO das páginas de Casas Bahia, Ponto e Extra.
           </Text>
         </Text>
         <Text paddingY='4px' color='bodyText'>
-          When I’m not behind the screen, I love to take product photographs,
-          advocate for remote work via freelancing, play video games and
-          sometimes create beautiful pieces of jewelry.
+          Quando não estou programando, minha outra atividade é como Team Leader em uma equipe de 
+          tecnologia e transmissão na minha comunidade cristã, a Igreja Cristã Mundial. Sou responsável por 
+          coordenar a equipe em escalas e ajudar na implantação de softwares dedicados e treinamentos para 
+          facilitar o uso do voluntário. 
         </Text>
         <Text paddingY='10px' color='bodyText'>
         Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:
