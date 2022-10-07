@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Head>
-        <title>Paulo Moutinho | Porfolio</title>
+        <title>Paulo Moutinho | Portfólio</title>
         <link
           rel='apple-touch-icon'
           sizes='180x180'
