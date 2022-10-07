@@ -91,7 +91,7 @@ function Navigation() {
             icon={colorMode === 'light' ? <BsFillMoonFill /> : <BsSun />}
           />
 
-          <Button
+          {/* <Button
             ml='4'
             color='buttonText'
             as='a'
@@ -103,7 +103,7 @@ function Navigation() {
             _hover={{ bg: 'teal.500' }}
           >
             Resume
-          </Button>
+          </Button> */}
         </Box>
       </Flex>
     </Box>

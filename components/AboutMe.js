@@ -21,7 +21,7 @@ function AboutMe() {
         </Text>
         <Text paddingY='10px' color='bodyText'>
           Minha jornada na programação começou em 2021, depois de anos fadigado na logística, fiz um curso básico de Javascript no Senai 
-          e logo depois, conheci a Rocketseat, onde me apaixonei ainda mais pelo programação e o ecosistema 
+          e logo depois, conheci a Rocketseat, onde me apaixonei ainda mais pela programação e o ecosistema 
           em torno do Javascript.
           <Text paddingY='20px' color='bodyText'>
             Atualmente, faço parte da Viahub, o HUB tecnológico da Via e voltado para o E-commerce. 
