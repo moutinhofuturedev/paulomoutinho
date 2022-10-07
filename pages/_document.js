@@ -5,12 +5,14 @@ export default class Document extends NextDocument {
   render() {
     return (
       <Html lang='en'>
-        <Head />
+        <Head>
+        <link rel="icon" type="image/svg+xml" href="/assets/PM.svg" />
         <script
           defer
           data-domain='estheragbaje.dev'
           src='https://plausible.io/js/plausible.js'
         ></script>
+        </Head>
 
         <body>
           <ColorModeScript />
