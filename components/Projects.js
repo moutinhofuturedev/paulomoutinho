@@ -22,7 +22,7 @@ function Projects(props) {
           src='/assets/event.png'
           link='https://github.com/moutinhofuturedev/Event-Platform'
           link2='https://event-platform-yoqu.vercel.app/'
-          tags={['React', 'Typescript', 'TailwindCSS', 'GraphQl']}
+          tags={['React', 'Typescript', 'Tailwind']}
         />
       </Stack>
     </Box>
