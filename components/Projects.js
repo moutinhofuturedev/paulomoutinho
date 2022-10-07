@@ -9,20 +9,20 @@ function Projects(props) {
       <SectionHeading number='04.'>Algumas coisas que desenvolvi</SectionHeading>
       <Stack spacing={8}>
         <ProjectCard
-          title='Chakra UI for Beginners'
+          title='Dev.Finance$'
           description='Learn how to use Chakra UI like a PRO. The complete course for absolute beginners to understand how Chakra UI works & get started building.'
-          src='/assets/chakrauiforbeginners.png'
-          link='https://github.com/estheragbaje/chakra-ui-for-beginners'
-          link2='https://www.chakrauiforbeginners.com/'
-          tags={['Figma', 'Chakra UI', 'Next JS']}
+          src='/assets/finance.png'
+          link='https://github.com/moutinhofuturedev/Codigo-Sistema-Financeiro'
+          link2='https://devsfinances.netlify.app/'
+          tags={['Html5', 'CSS3', 'Javasrcipt']}
         />
         <ProjectCard
-          title='RCCG HOG Website'
+          title='Event Platform'
           description='Created the Responsive UI Design in Figma for all the pages and Developed the entire features of the fully responsive wesbite using Chakra UI and Next.js. '
-          src='/assets/rccg_hog.png'
-          link='https://github.com/estheragbaje/HOG_Website'
-          link2='https://rccghouseofgracecc.com/'
-          tags={['Figma', 'Chakra UI', 'Next JS', 'Strapi']}
+          src='/assets/event.png'
+          link='https://github.com/moutinhofuturedev/Event-Platform'
+          link2='https://event-platform-yoqu.vercel.app/'
+          tags={['React', 'Typescript', 'TailwindCSS', 'GraphQl']}
         />
       </Stack>
     </Box>
