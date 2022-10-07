@@ -197,7 +197,7 @@ function App() {
               maxWidth='50ch'
               mx='auto'
             >
-              Gosta de se conectar e compartilhar conhecimento? Entre em contato comigo! 📧
+              Gostaria de se conectar e compartilhar conhecimento? Entre em contato comigo! 📧
             </Text>
             <Button
               as='a'
