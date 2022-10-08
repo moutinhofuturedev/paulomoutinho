@@ -1,10 +1,9 @@
 import {
   Box,
-  Button,
   Flex,
   IconButton,
+  Image,
   useColorMode,
-  useColorModeValue,
 } from '@chakra-ui/react';
 import React from 'react';
 import { BsFillMoonFill, BsSun } from 'react-icons/bs';
@@ -23,6 +22,7 @@ const Logo = () => (
   >
     PM
   </Flex>
+  
 );
 
 function Navigation() {
