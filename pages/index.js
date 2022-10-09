@@ -28,7 +28,7 @@ function App() {
     <>
       <Head>
         <title>Paulo Moutinho | Portfólio</title>
-        <link
+        {/* <link
           rel='apple-touch-icon'
           sizes='180x180'
           // href='/apple-touch-icon.png'
@@ -44,8 +44,7 @@ function App() {
           type='image/png'
           sizes='16x16'
           // href='/favicon-16x16.png'
-        />
-        <link rel='manifest' href='/site.webmanifest' />
+        /> */}
         <meta name='msapplication-TileColor' content='#da532c' />
         <meta name='theme-color' content='#ffffff' />
         <meta name='description' content='Online Portfolio' />
@@ -53,14 +52,14 @@ function App() {
           name='robots'
           content='max-snippet:-1, max-image-preview:large, max-video-preview:-1'
         />
-        <link rel='canonical' href='https://estheragbaje.dev/' />
-        <meta property='og:locale' content='en_US' />
+        <link rel='canonical' href='https://paulomoutinho.vercel.app/' />
+        <meta property='og:locale' content='pt-BR' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Paulo Moutinho | Portfolio' />
         <meta property='og:description' content='Paulo Moutinho Portfolio' />
-        <meta property='og:url' content='https://estheragbaje.dev/' />
+        <meta property='og:url' content='https://paulomoutinho.vercel.app/' />
         <meta property='og:site_name' content='Online Portfolio' />
-        <meta property='og:image' content='yourimage.jpg' />
+        <meta property='og:image' content='/assets/paulomoutinho.jpg' />
         <meta
           property='og:image:secure_url'
           content='/assets/paulomoutinho.jpg'
@@ -117,17 +116,17 @@ function App() {
               Vídeos Favoritos
             </SectionHeading>
             <VideoSection />
-            {/* <Button
+            <Button
               variant='outline'
               size='lg'
               textAlign='center'
               colorScheme='teal'
               as='a'
-              href='https://www.youtube.com/channel/UCE9INRGNwdJVAyrkYHkNAnQ'
+              href='https://www.youtube.com/c/RocketSeat'
               target='_blank'
             >
-              View more videos
-            </Button> */}
+              Veja mais vídeos
+            </Button>
           </Box>
           <Box paddingY='150px'>
             <SectionHeading number='02.' id='blogs'>
@@ -136,41 +135,41 @@ function App() {
 
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing='20px'>
               <BlogCard
-                link='https://dev.to/estheragbaje/the-beginners-guide-to-building-an-accessible-web-5eea'
-                title='The beginners guide to building an accessible web'
-                details='Accessibility (a11y) is an essential part of web development because it provides unrestricted access to millions of users. Unfortunately...'
-                date='24th March, 2022'
+                link='https://medium.com/viahub/arrdissecando-a-carreira-do-software-engineering-specialist-staff-principal-e-distinguished-cdd92ca3ef1a'
+                title='Dissecando a carreira do Software Engineering Specialist'
+                details='A carreira do especialista é uma polêmica aqui no nosso país. Muitos já ouviram falar, mas não existe um "material oficial" destrinchando os papéis...'
+                date='18 Agosto, 2022'
               />
               <BlogCard
-                link='https://dev.to/estheragbaje/5-popular-frontend-development-tools-in-2021-1pg2'
-                title='5 Popular Frontend Development Tools in 2021'
-                details="The increasing number of frontend developer tools out there make it difficult to decide which to pick for your next project. I've compiled five popular frontend..."
-                date='15th November, 2021'
+                link='https://medium.com/viahub/devo-ser-especialista-ou-seguir-pra-lideran%C3%A7a-aab87a59d3aa'
+                title='Devo ser especialista ou seguir pra liderança?'
+                details="Acredito que quase todo mundo que começa uma carreira, especialmente em tecnologia, tem a dúvida de pra onde ir depois de se tornar sênior...."
+                date='26 Agosto, 2022'
               />
               <BlogCard
-                link='https://dev.to/estheragbaje/6-awesome-tools-that-turn-code-snippets-to-images-54fo'
-                title='6 Awesome Tools that turn code snippets to images'
-                details="You\'ve probably seen images like this on Twitter, Instagram, blogs e.t.c. But have you ever wondered how these images are created?. Well, today I'm going..."
-                date='21st June, 2021'
+                link='https://medium.com/viahub/criando-um-framework-para-definir-m%C3%A9trica-de-produto-6e8191bc0c37'
+                title='Criando um framework para definir métrica de produto'
+                details="Recebi o desafio de dar continuidade à construção da arquitetura e experiência do usuário em um sistema ligado ao varejo e na jornada de logística em uma das principais empresas do varejo do país, a Via..."
+                date='13 Maio, 2022'
               />
               <BlogCard
-                link='https://dev.to/estheragbaje/debunking-5-popular-coding-myths-293'
-                title='Debunking 5 Popular Coding Myths'
-                details='I get a lot of messages from people asking how I started my coding journey. When I tell them, the next response is usually, “I’ll love to start also, but...'
-                date='28th December, 2020'
+                link='https://medium.com/viahub/oi-estudar-em-hor%C3%A1rio-de-trabalho-aqui-na-viahub-pode-86a483e2b3b2'
+                title='Oi? Estudar em horário de trabalho? Aqui na ViaHub pode!'
+                details='2021 foi O ANO DA VIAHUB! Criamos nossa marca da Tecnologia chamada ViaHub, nossas plataformas evoluíram MUITO, melhoramos váriossss indicadores, desenvolvemos diversas iniciativas de engajamento...'
+                date='31 Novembro, 2021'
               />
               <BlogCard
-                link='https://dev.to/estheragbaje/how-to-build-a-simple-form-with-validation-using-yup-and-formik-beginner-friendly-521j'
-                title='How to build a simple form with validation using yup and formik'
-                details="Just imagine the frustration that may come from filling a poorly validated form :( You'll probably bounce off the page. On surface level, forms are very..."
-                date='3rd June, 2020'
+                link='https://medium.com/viahub/reatividade-turbinada-com-vuex-a37145dc0c58'
+                title='Reatividade turbinada com Vuex'
+                details="Você já se perguntou para que serve o gerenciamento de estados em uma aplicação de frontend? Ou talvez tenha se perguntado como funciona esse gerenciamento..."
+                date='22 Outubro, 2020'
               />
 
               <BlogCard
-                link='https://dev.to/estheragbaje/how-to-use-react-hooks-to-create-a-counter-component-1bmp'
-                title='How to use React Hooks to create a Counter Component'
-                details="Have you been looking for the simplest way to build a counter component using React Hooks? Well, here you go! First thing you need to know is that since we're using hooks..."
-                date='20th March, 2020'
+                link='https://medium.com/viahub/ci%C3%AAncia-de-dados-escal%C3%A1vel-na-via-eae755be723a'
+                title='Ciência de Dados Escalável na ViaHub'
+                details="A Via é a plataforma de consumo do brasileiro! Conhecida de longa data pelas suas marcas Casas Bahia e Ponto :>, ela vem se transformando para ajudar a realizar cada vez mais os sonhos dos brasileiros, contando com uma aceleração tecnológica gigante..."
+                date='28 Janeiro, 2022'
               />
             </SimpleGrid>
             <Button
