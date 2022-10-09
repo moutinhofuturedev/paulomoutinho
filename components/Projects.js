@@ -10,7 +10,6 @@ function Projects(props) {
       <Stack spacing={8}>
         <ProjectCard
           title='Dev.Finance$'
-          // description='Learn how to use Chakra UI like a PRO. The complete course for absolute beginners to understand how Chakra UI works & get started building.'
           description="Uma aplicação para controle financeiro simples e rápido. Nela você pode cadastrar suas despesas e entradas. Você pode também visualizar o seu balanço, ou seja, o seu saldo atual."
           src='/assets/finance.png'
           link='https://github.com/moutinhofuturedev/Codigo-Sistema-Financeiro'
@@ -19,12 +18,19 @@ function Projects(props) {
         />
         <ProjectCard
           title='Event Platform'
-          // description='Created the Responsive UI Design in Figma for all the pages and Developed the entire features of the fully responsive wesbite using Chakra UI and Next.js. '
           description="Com ReactJS e Tailwind, construímos esta fantástica plataforma de eventos onde podemos compartilhar conteúdo por tempo limitado com todos os inscritos do evento."
           src='/assets/event.png'
           link='https://github.com/moutinhofuturedev/Event-Platform'
           link2='https://event-platform-yoqu.vercel.app/'
           tags={['React', 'Typescript', 'Tailwind']}
+        />
+        <ProjectCard
+          title='Login Chakra UI'
+          description="Meu primeiro contato e projeto feito com Chakra UI. Curso na própria página de documentação do Chakra UI"
+          src='/assets/login.png'
+          link='https://github.com/moutinhofuturedev/Next-With-ChakraUI'
+          link2='next-with-chakra-ui-three.vercel.app'
+          tags={['React', 'Typescript', 'Chakra UI']}
         />
       </Stack>
     </Box>
