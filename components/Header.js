@@ -1,5 +1,6 @@
 import {
   Box,
+  Circle,
   Flex,
   IconButton,
   Image,
@@ -9,20 +10,15 @@ import React from 'react';
 import { BsFillMoonFill, BsSun } from 'react-icons/bs';
 
 const Logo = () => (
-  <Flex
-    boxSize='48px'
-    align='center'
-    justify='center'
-    bg='logoBackground'
-    color='white'
-    fontWeight='semibold'
-    fontSize='lg'
-    rounded='full'
-    padding='2'
-  >
-    PM
-  </Flex>
-  
+  <Circle size={"70px"} border="2px" color={'teal.400'}>
+    <Image
+      src="/assets/me-logo.jpg"
+      borderRadius={"full"}
+      boxSize="60px"
+      objectFit={"cover"}
+      objectPosition="top"
+    />
+  </Circle>
 );
 
 function Navigation() {
