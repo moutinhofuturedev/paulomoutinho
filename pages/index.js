@@ -80,7 +80,7 @@ function App() {
             <Text color='highlight' mb='20px'>
               Olá, meu nome é
             </Text>
-            <Heading
+            <Heading as='h1'
               fontWeight='bold'
               fontSize={{ base: '32px', md: '60px' }}
               color='headingText'
