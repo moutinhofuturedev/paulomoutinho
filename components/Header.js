@@ -4,6 +4,7 @@ import {
   Flex,
   IconButton,
   Image,
+  Link,
   useColorMode,
 } from '@chakra-ui/react';
 import React from 'react';
@@ -11,13 +12,15 @@ import { BsFillMoonFill, BsSun } from 'react-icons/bs';
 
 const Logo = () => (
   <Circle size={"70px"} border="2px" color={'teal.400'}>
-    <Image
+    <Link href='/'>
+      <Image
       src="/assets/me-logo.jpg"
       borderRadius={"full"}
       boxSize="60px"
       objectFit={"cover"}
       objectPosition="top"
-    />
+      />
+    </Link>
   </Circle>
 );
 
@@ -50,20 +53,20 @@ function Navigation() {
           alignItems='center'
           display={{ base: 'none', md: 'flex' }}
         >
-          <Box as='a' href='#about-me' _hover={{ color: 'teal.500' }}>
+          <Box as='a' href='/#about-me' _hover={{ color: 'teal.500' }}>
             Sobre
           </Box>
-          <Box as='a' href='#videos' _hover={{ color: 'teal.500' }}>
+          <Box as='a' href='/#videos' _hover={{ color: 'teal.500' }}>
             Videos
           </Box>
-          <Box as='a' href='#blogs' _hover={{ color: 'teal.500' }}>
+          <Box as='a' href='/#blogs' _hover={{ color: 'teal.500' }}>
             Blogs
           </Box>
-          <Box as='a' href='#projects' _hover={{ color: 'teal.500' }}>
+          <Box as='a' href='/#projects' _hover={{ color: 'teal.500' }}>
             Projetos
           </Box>
 
-          <Box as='a' href='#contact' _hover={{ color: 'teal.500' }}>
+          <Box as='a' href='/#contact' _hover={{ color: 'teal.500' }}>
             Contato
           </Box>
           
@@ -86,20 +89,6 @@ function Navigation() {
             onClick={toggleColorMode}
             icon={colorMode === 'light' ? <BsFillMoonFill /> : <BsSun />}
           />
-
-          {/* <Button
-            ml='4'
-            color='buttonText'
-            as='a'
-            target='_blank'
-            paddingY={3}
-            href='https://bit.ly/3xSkqCQ'
-            bg='buttonBackground'
-            display={{ md: 'none' }}
-            _hover={{ bg: 'teal.500' }}
-          >
-            Resume
-          </Button> */}
         </Box>
       </Flex>
     </Box>
