@@ -1,8 +1,11 @@
 import Head from 'next/head';
-import { Box } from "@chakra-ui/react"
+import { Box, Stack } from "@chakra-ui/react"
 import Navigation from "../components/Header"
 import { LeftBar } from "../components/LeftBar"
 import { RightBar } from "../components/RightBar"
+import SectionHeading from '../components/SectionHeading';
+import ProjectCard from '../components/ProjectCard';
+import { Main } from '.';
 
 export default function Projects() {
     return (
@@ -39,6 +42,21 @@ export default function Projects() {
           <Navigation />
           <LeftBar />
           <RightBar />
+          <Main>
+            <Box mt="5rem">
+             <SectionHeading>Veja mais projetos</SectionHeading>
+            </Box>
+            <Stack spacing={8}>
+              <ProjectCard 
+                title="Goog Form"
+                description="Projeto desenvolvido com Next e Chakra UI. Foco no desenvolvimento de formulário usando React Hook Form com validações fáceis é flexíveis."
+                src="/public/assets/form.png"
+                link="https://github.com/moutinhofuturedev/Good-Form"
+                link2="good-form.vercel.app/"
+                tags={["Next", "Chakra UI", "React Hook Form"]}
+              />
+            </Stack>
+          </Main>
         </Box>
       </>
     );

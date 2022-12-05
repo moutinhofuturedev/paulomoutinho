@@ -10,7 +10,7 @@ import { RightBar } from '../components/RightBar';
 import SectionHeading from '../components/SectionHeading';
 import { VideoSection } from '../components/VideoCard';
 
-function Main(props) {
+export function Main(props) {
   return (
     <Box
       as='main'
