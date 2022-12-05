@@ -7,7 +7,7 @@ import SectionHeading from '../components/SectionHeading';
 import ProjectCard from '../components/ProjectCard';
 import { Main } from '.';
 
-export default function Projects() {
+export default function PageProjects() {
     return (
       <>
         <Head>
@@ -52,7 +52,7 @@ export default function Projects() {
                 description="Projeto desenvolvido com Next e Chakra UI. Foco no desenvolvimento de formulário usando React Hook Form com validações fáceis é flexíveis."
                 src="/public/assets/form.png"
                 link="https://github.com/moutinhofuturedev/Good-Form"
-                link2="good-form.vercel.app/"
+                link2="https://good-form.vercel.app/"
                 tags={["Next", "Chakra UI", "React Hook Form"]}
               />
             </Stack>
