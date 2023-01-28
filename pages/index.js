@@ -30,7 +30,7 @@ function App() {
         <title>Paulo Moutinho | Portfólio</title>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="Online Portfolio" />
+        <meta name="description" content="Online Portfólio" />
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
@@ -38,10 +38,10 @@ function App() {
         <link rel="canonical" href="https://paulomoutinho.vercel.app/" />
         <meta property="og:locale" content="pt-BR" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Paulo Moutinho | Portfolio" />
-        <meta property="og:description" content="Paulo Moutinho Portfolio" />
+        <meta property="og:title" content="Paulo Moutinho | Portfólio" />
+        <meta property="og:description" content="Paulo Moutinho Portfólio" />
         <meta property="og:url" content="https://paulomoutinho.vercel.app/" />
-        <meta property="og:site_name" content="Online Portfolio" />
+        <meta property="og:site_name" content="Online Portfólio" />
         <meta property="og:image" content="/assets/paulomoutinho.jpg" />
         <meta
           property="og:image:secure_url"
@@ -50,8 +50,8 @@ function App() {
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:description" content="Paulo Moutinho Portfolio" />
-        <meta name="twitter:title" content="Paulo Moutinho | Portfolio" />
+        <meta name="twitter:description" content="Paulo Moutinho Portfólio" />
+        <meta name="twitter:title" content="Paulo Moutinho | Portfólio" />
         <meta name="twitter:image" content="/assets/paulomoutinho.jpg" />
       </Head>
       <Box bg="generalBackground" color="bodyText">
