@@ -47,13 +47,22 @@ export default function PageProjects() {
              <SectionHeading>Veja mais projetos</SectionHeading>
             </Box>
             <Stack spacing={8}>
-              <ProjectCard 
+            <ProjectCard 
                 title="Goog Form"
-                description="Projeto desenvolvido com Next e Chakra UI. Foco no desenvolvimento de formulário usando React Hook Form com validações fáceis é flexíveis."
-                src="/public/assets/form.png"
+                description="Projeto desenvolvido com Next e Chakra UI. Foco no desenvolvimento de formulário usando React Hook Form com validações fáceis é flexíveis,
+                Api com Axios e back end com Json-Server."
+                src="/assets/form.png"
                 link="https://github.com/moutinhofuturedev/Good-Form"
                 link2="https://good-form.vercel.app/"
                 tags={["Next", "Chakra UI", "React Hook Form"]}
+              />
+              <ProjectCard 
+                title="Linktree"
+                description="Construção de um aplicativo que compartilha links de projetos e redes sociais. Desenvolvido com Next.js 13 e estilo com Tailwind CSS."
+                src="/assets/linktree.png"
+                link="https://github.com/moutinhofuturedev/linktree"
+                link2="https://linktree-moutinho.vercel.app/"
+                tags={["Next", "Tailwind"]}
               />
             </Stack>
           </Main>
