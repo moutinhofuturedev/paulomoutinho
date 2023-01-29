@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Box, Stack } from "@chakra-ui/react"
+import { Box, Stack, Text, Heading, Button } from "@chakra-ui/react"
 import Navigation from "../components/Header"
 import { LeftBar } from "../components/LeftBar"
 import { RightBar } from "../components/RightBar"
@@ -66,6 +66,29 @@ export default function PageProjects() {
               />
             </Stack>
           </Main>
+          <Box paddingY="150px" textAlign="center" id="contact">
+            <Heading>Entrar em contato</Heading>
+            <Text
+              paddingY="10px"
+              color="bodyText"
+              fontSize="lg"
+              maxWidth="50ch"
+              mx="auto"
+            >
+              Gostaria de se conectar e compartilhar conhecimento? Entre em
+              contato comigo! 📧
+            </Text>
+            <Button
+              as="a"
+              href="mailto:paulo_vicali@icloud.com"
+              variant="outline"
+              marginY="60px"
+              size="lg"
+              colorScheme="teal"
+            >
+              Enviar email
+            </Button>
+          </Box>
         </Box>
       </>
     );
