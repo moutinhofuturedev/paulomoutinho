@@ -30,7 +30,7 @@ function Projects(props) {
           src='/assets/login.png'
           link='https://github.com/moutinhofuturedev/Next-With-ChakraUI'
           link2='next-with-chakra-ui-three.vercel.app'
-          tags={['React', 'Typescript', 'Chakra UI']}
+          tags={['Next', 'Typescript', 'Chakra UI']}
         />
       </Stack>
     </Box>
