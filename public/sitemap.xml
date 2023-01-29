@@ -6,8 +6,8 @@ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <image:image>
       <image:loc>https://paulomoutinho.vercel.app/paulomoutinho.jpg</image:loc>
     </image:image>
-    <changefreq>monthly</changefreq>
     <lastmod>2023-01-28</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
       <loc>https://paulomoutinho.vercel.app/projects</loc>
