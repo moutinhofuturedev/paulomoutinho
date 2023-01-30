@@ -63,7 +63,9 @@ function AboutMe() {
           height='500px'
           width='500px'
           src='/assets/paulomoutinho.jpg'
-          alt='Folasade Agbaje'
+          alt='Imagem de Paulo Moutinho'
+          title='Paulo Moutinho'
+          aria-label='Paulo Moutinho'
           objectFit='cover'
           objectPosition='center'
         />
