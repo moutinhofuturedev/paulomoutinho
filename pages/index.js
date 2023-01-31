@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Head>
-        <title>Paulo Moutinho | Portfólio</title>
+        <title>Paulo Moutinho® | Portfólio</title>
         <meta name="google-site-verification" content="4on3Ax2OR-BtXre94Wg3N7yZ0OoXYFPRCxle-bWVeAo" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />

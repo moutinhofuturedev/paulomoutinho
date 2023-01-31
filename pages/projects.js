@@ -11,7 +11,7 @@ export default function PageProjects() {
     return (
       <>
         <Head>
-          <title>Paulo Moutinho | Projetos</title>
+          <title>Paulo Moutinho® | Projetos</title>
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
           <meta name="description" content="Online Portfolio" />
