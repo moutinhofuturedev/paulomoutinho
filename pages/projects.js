@@ -51,7 +51,7 @@ export default function PageProjects() {
                 title="Goog Form"
                 description="Projeto desenvolvido com Next e Chakra UI. Foco no desenvolvimento de formulário usando React Hook Form com validações fáceis é flexíveis,
                 Api com Axios e back end com Json-Server."
-                src="/assets/form.png"
+                src="/assets/good-form.png"
                 link="https://github.com/moutinhofuturedev/Good-Form"
                 link2="https://good-form.vercel.app/"
                 tags={["Next", "Chakra UI", "React Hook Form"]}
@@ -59,14 +59,30 @@ export default function PageProjects() {
               <ProjectCard 
                 title="Linktree"
                 description="Construção de um aplicativo que compartilha links de projetos e redes sociais. Desenvolvido com Next.js 13 e estilo com Tailwind CSS."
-                src="/assets/linktree.png"
+                src="/assets/link.png"
                 link="https://github.com/moutinhofuturedev/linktree"
                 link2="https://linktree-moutinho.vercel.app/"
                 tags={["Next", "Tailwind"]}
               />
+              <ProjectCard 
+                title="DashGo"
+                description="DashGo é uma aplicação em Next.js para dashboard's em geral com paginas e paginação, login e sistema de inclusão de usuarios."
+                src="/assets/dash.png"
+                link="https://github.com/moutinhofuturedev/DashGO"
+                link2="https://dash-go-psi.vercel.app/"
+                tags={["Next", "Chakra UI", "React Query"]}
+              />
+              <ProjectCard 
+                title="Pricing UI"
+                description="Um projeto aprofundado em construir uma UI com Chakra UI e layout responsivo para versão mobile."
+                src="/assets/Desktop.png"
+                link="https://github.com/moutinhofuturedev/Pricing-UI"
+                link2="https://pricing-ui-plum.vercel.app/"
+                tags={["React", "Chakra UI", "Typescript"]}
+              />
             </Stack>
           </Main>
-          <Box paddingY="150px" textAlign="center" id="contact">
+          <Box paddingY="150px" textAlign="center">
             <Heading>Entrar em contato</Heading>
             <Text
               paddingY="10px"
