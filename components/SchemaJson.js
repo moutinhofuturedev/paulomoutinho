@@ -15,7 +15,13 @@ const schemaData =
     "@type": "Person",
     "name": "Paulo Moutinho",
     "email": "mailto:paulo_vicali@icloud.com"
-  }
+  },
+  "socials": [
+    "https://github.com/moutinhofuturedev",
+    "https://twitter.com/PauloMoutinho19",
+    "https://www.instagram.com/paulo_mmoutinho/?hl=pt-br",
+    "https://www.linkedin.com/in/paulomoutinhovitor/"
+  ]
 }
 
 export default function SchemaJsonLd() {
