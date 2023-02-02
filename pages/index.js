@@ -9,6 +9,7 @@ import Projects from '../components/Projects';
 import { RightBar } from '../components/RightBar';
 import SectionHeading from '../components/SectionHeading';
 import { VideoSection } from '../components/VideoCard';
+import SchemaJson from '../components/SchemaJson';
 
 export function Main(props) {
   return (
@@ -56,6 +57,7 @@ function App() {
         <meta name="twitter:image" content="/assets/paulomoutinho.jpg" />
       </Head>
       <Box bg="generalBackground" color="bodyText">
+        <SchemaJson />
         <Header />
         <LeftBar />
         <RightBar />
