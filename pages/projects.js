@@ -5,6 +5,7 @@ import { LeftBar } from "../components/LeftBar"
 import { RightBar } from "../components/RightBar"
 import SectionHeading from '../components/SectionHeading';
 import ProjectCard from '../components/ProjectCard';
+import SchemaJsonLdProjects from '../components/schemas/SchemaJsonProjects';
 import { Main } from '.';
 
 export default function PageProjects() {
@@ -12,33 +13,26 @@ export default function PageProjects() {
       <>
         <Head>
           <title>Paulo Moutinho® | Projetos</title>
+          <meta name="google-site-verification" content="4on3Ax2OR-BtXre94Wg3N7yZ0OoXYFPRCxle-bWVeAo" />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
-          <meta name="description" content="Online Portfolio" />
+          <meta name="description" content="Online Projetos" />
           <meta
             name="robots"
             content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
           />
-          <link rel="canonical" href="https://paulomoutinho.vercel.app/" />
+          <link rel="canonical" href="https://paulomoutinho.vercel.app/projects" />
           <meta property="og:locale" content="pt-BR" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Paulo Moutinho | Portfolio" />
-          <meta property="og:description" content="Paulo Moutinho Portfolio" />
-          <meta property="og:url" content="https://paulomoutinho.vercel.app/" />
-          <meta property="og:site_name" content="Online Portfolio" />
-          <meta property="og:image" content="/assets/paulomoutinho.jpg" />
-          <meta
-            property="og:image:secure_url"
-            content="/assets/paulomoutinho.jpg"
-          />
-          <meta property="og:image:width" content="1280" />
-          <meta property="og:image:height" content="720" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:description" content="Paulo Moutinho Portfolio" />
-          <meta name="twitter:title" content="Paulo Moutinho | Portfolio" />
-          <meta name="twitter:image" content="/assets/paulomoutinho.jpg" />
+          <meta property="og:title" content="Paulo Moutinho | Projetos" />
+          <meta property="og:description" content="Paulo Moutinho Projetos" />
+          <meta property="og:url" content="https://paulomoutinho.vercel.app/projects" />
+          <meta property="og:site_name" content="Online Projetos" />
+          <meta name="twitter:description" content="Paulo Moutinho Projetos" />
+          <meta name="twitter:title" content="Paulo Moutinho | Projetos" />
         </Head>
         <Box bg="generalBackground" color="bodyText">
+          <SchemaJsonLdProjects />
           <Navigation />
           <LeftBar />
           <RightBar />
