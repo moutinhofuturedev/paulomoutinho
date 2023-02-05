@@ -8,10 +8,12 @@ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     </image:image>
     <lastmod>2023-01-28</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
       <loc>https://paulomoutinho.vercel.app/projects</loc>
-      <lastmod>2023-01-28</lastmod>
+      <lastmod>2023-02-04</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
    </url>
 </urlset>
