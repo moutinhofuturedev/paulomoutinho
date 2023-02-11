@@ -61,16 +61,13 @@ export function LeftBar() {
           label='twitter'
           link='https://twitter.com/PauloMoutinho19'
         />
-
-
         <SocialLink
           icon={FaInstagram}
           label='blog'
           link='https://www.instagram.com/paulo_mmoutinho/?hl=pt-br'
         />
-
-        <Divider orientation='vertical' height='200px' borderColor='icon' />
       </Stack>
+      <Divider orientation='vertical' height='200px' borderColor='icon' mt="40px" ml="20px"/>
     </Box>
   );
 }

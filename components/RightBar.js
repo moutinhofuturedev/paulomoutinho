@@ -18,7 +18,7 @@ export function RightBar() {
         style={{ writingMode: 'vertical-rl' }}
         letterSpacing='0.2em'
         fontSize='xs'
-        link='mailto: estheroagbaje@gmail.com'
+        link='mailto: paulo_vicali@icloud.com'
         paddingBottom='40px'
       >
         paulo_vicali@icloud.com
