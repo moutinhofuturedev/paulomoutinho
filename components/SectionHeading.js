@@ -4,7 +4,7 @@ import { Heading, Box } from '@chakra-ui/react';
 function SectionHeading({ number, children, ...props }) {
   return (
     <Heading
-      as='h3'
+      as='h2'
       display='flex'
       alignItems='center'
       marginTop='10px'

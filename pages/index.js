@@ -1,5 +1,6 @@
 import { Box, Button, Heading, SimpleGrid, Text, VStack } from '@chakra-ui/react';
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
 import AboutMe from '../components/AboutMe';
 import BlogCard from '../components/BlogCard';
@@ -29,7 +30,10 @@ function App() {
     <>
       <Head>
         <title>Paulo Moutinho® | Portfólio</title>
-        <meta name="google-site-verification" content="4on3Ax2OR-BtXre94Wg3N7yZ0OoXYFPRCxle-bWVeAo" />
+        <meta
+          name="google-site-verification"
+          content="4on3Ax2OR-BtXre94Wg3N7yZ0OoXYFPRCxle-bWVeAo"
+        />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="description" content="Online Portfólio" />
@@ -177,16 +181,16 @@ function App() {
           <AboutMe />
           <VStack alignItems="flex-start">
             <Projects />
-            <Button
-              variant="outline"
-              size="lg"
-              textAlign="center"
-              colorScheme="teal"
-              as="a"
-              href="/projects"
-            >
-              Ver mais projetos
-            </Button>
+            <Link href="/projects" passHref>
+              <Button
+                variant="outline"
+                size="lg"
+                textAlign="center"
+                colorScheme="teal"
+              >
+                Ver mais projetos
+              </Button>
+            </Link>
           </VStack>
           <Box paddingY="150px" textAlign="center" id="contact">
             <Heading>Entrar em contato</Heading>

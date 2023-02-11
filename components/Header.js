@@ -3,25 +3,29 @@ import {
   Circle,
   Flex,
   IconButton,
-  Image,
-  Link,
   useColorMode,
 } from '@chakra-ui/react';
 import React from 'react';
+import Image from "next/image"
+import Link from "next/link"
 import { BsFillMoonFill, BsSun } from 'react-icons/bs';
 
 const Logo = () => (
-  <Circle size={"70px"} border="2px" color={'teal.400'}>
-    <Link href='/'>
-      <Image
-      src="/assets/me-logo.jpg"
-      borderRadius={"full"}
-      boxSize="60px"
-      objectFit={"cover"}
-      objectPosition="top"
-      />
+  <Flex direction={{ base: "column", md: "row" }} gap={{ base: "4", md: "8" }}>
+    <Link href="/" passHref>
+      <Circle size="70px" overflow="hidden" color="teal.400" border="2px" cursor="pointer">
+        <Image
+          src="/assets/me-logo.jpg"
+          alt="Paulo Moutinho"
+          arial-label="Paulo Moutinho"
+          width="70px"
+          height="70px"
+          objectFit="cover"
+          objectPosition="top"
+        />
+      </Circle>
     </Link>
-  </Circle>
+  </Flex>
 );
 
 function Navigation() {

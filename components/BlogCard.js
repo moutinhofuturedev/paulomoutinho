@@ -1,6 +1,6 @@
 import { Box, Heading, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
-import { MdFolder, MdOpenInNew } from 'react-icons/md';
+import { MdOpenInNew } from 'react-icons/md';
 import { LinkButton } from './ProjectCard';
 
 function BlogCard({ link, title, details, date }) {
@@ -16,7 +16,6 @@ function BlogCard({ link, title, details, date }) {
       boxShadow='sm'
     >
       <Stack mt={6} spacing={5} isInline paddingY='32px'>
-        <LinkButton icon={MdFolder} size='30px' color='mutedText' />
         <LinkButton
           icon={MdOpenInNew}
           link={link}
