@@ -63,7 +63,7 @@ function AboutMe() {
           height='500px'
           width='500px'
           src='/assets/paulomoutinho.jpg'
-          alt='Imagem de Paulo Moutinho'
+          alt='Paulo Moutinho'
           title='Paulo Moutinho'
           aria-label='Paulo Moutinho'
           objectFit='cover'
