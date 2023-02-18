@@ -67,7 +67,7 @@ function App() {
         <RightBar />
         <Main>
           <Box paddingY="80px">
-            <Text color="highlight" mb="20px" fontWeight="700" title="Olá, meu nome é" aria-label="Olá, meu nome é">
+            <Text color="headingText" mb="20px">
               Olá, meu nome é
             </Text>
             <Heading
