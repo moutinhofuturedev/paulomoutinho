@@ -15,7 +15,7 @@ const Logo = () => (
     <Link href="/" passHref>
       <Circle size="70px" overflow="hidden" color="teal.400" border="2px" cursor="pointer">
         <Image
-          src="/assets/me-logo.jpg"
+          src="/assets/logo.jpg"
           alt="Paulo Moutinho"
           arial-label="Paulo Moutinho"
           width="70px"
