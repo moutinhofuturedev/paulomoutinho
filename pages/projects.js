@@ -5,43 +5,54 @@ import { LeftBar } from "../components/LeftBar"
 import { RightBar } from "../components/RightBar"
 import SectionHeading from '../components/SectionHeading';
 import ProjectCard from '../components/ProjectCard';
-import SchemaJsonLdProjects from '../components/schemas/SchemaJsonProjects';
 import { Main } from '.';
+import { addShemaLdProjects } from '../constants/jsonSchemaLd';
 
 export default function PageProjects() {
     return (
       <>
         <Head>
           <title>Paulo Moutinho® | Projetos</title>
-          <meta name="google-site-verification" content="4on3Ax2OR-BtXre94Wg3N7yZ0OoXYFPRCxle-bWVeAo" />
+          <meta
+            name="google-site-verification"
+            content="4on3Ax2OR-BtXre94Wg3N7yZ0OoXYFPRCxle-bWVeAo"
+          />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
-          <meta name="description" content="Online Projetos" />
+          <meta
+            name="description"
+            content="Projetos para portifólio de Paulo Moutinho"
+          />
           <meta
             name="robots"
             content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
           />
-          <link rel="canonical" href="https://paulomoutinho.vercel.app/projects" />
           <meta property="og:locale" content="pt-BR" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Paulo Moutinho | Projetos" />
           <meta property="og:description" content="Paulo Moutinho Projetos" />
-          <meta property="og:url" content="https://paulomoutinho.vercel.app/projects" />
+          <meta
+            property="og:url"
+            content="https://paulomoutinho.vercel.app/projects"
+          />
           <meta property="og:site_name" content="Online Projetos" />
-          <meta name="twitter:description" content="Paulo Moutinho Projetos" />
-          <meta name="twitter:title" content="Paulo Moutinho | Projetos" />
+          <script
+            id="SchemaJsonLdProjects"
+            key="SchemaJsonLdProjects"
+            type="application/ld+json"
+            dangerouslySetInnerHTML={addShemaLdProjects()}
+          />
         </Head>
         <Box bg="generalBackground" color="bodyText">
-          <SchemaJsonLdProjects />
           <Navigation />
           <LeftBar />
           <RightBar />
           <Main>
             <Box mt="5rem">
-             <SectionHeading>Veja mais projetos</SectionHeading>
+              <SectionHeading>Veja mais projetos</SectionHeading>
             </Box>
             <Stack spacing={8}>
-            <ProjectCard 
+              <ProjectCard
                 title="Goog Form"
                 description="Projeto desenvolvido com Next e Chakra UI. Foco no desenvolvimento de formulário usando React Hook Form com validações fáceis é flexíveis,
                 Api com Axios e back end com Json-Server."
@@ -50,7 +61,7 @@ export default function PageProjects() {
                 link2="https://good-form.vercel.app/"
                 tags={["Next", "Chakra UI", "React Hook Form"]}
               />
-              <ProjectCard 
+              <ProjectCard
                 title="Linktree"
                 description="Construção de um aplicativo que compartilha links de projetos e redes sociais. Desenvolvido com Next.js 13 e estilo com Tailwind CSS."
                 src="/assets/link.png"
@@ -58,7 +69,7 @@ export default function PageProjects() {
                 link2="https://linktree-moutinho.vercel.app/"
                 tags={["Next", "Tailwind"]}
               />
-              <ProjectCard 
+              <ProjectCard
                 title="DashGo"
                 description="DashGo é uma aplicação em Next.js para dashboard's em geral com paginas e paginação, login e sistema de inclusão de usuarios."
                 src="/assets/dash.png"
@@ -66,7 +77,7 @@ export default function PageProjects() {
                 link2="https://dash-go-psi.vercel.app/"
                 tags={["Next", "Chakra UI", "React Query"]}
               />
-              <ProjectCard 
+              <ProjectCard
                 title="Pricing UI"
                 description="Um projeto aprofundado em construir uma UI com Chakra UI e layout responsivo para versão mobile."
                 src="/assets/Desktop.png"
