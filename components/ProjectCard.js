@@ -48,8 +48,9 @@ function ProjectCard({ tags, title, description, src, link, link2, ...props }) {
           </Text>
 
           <Stack mt={6} spacing={6} isInline>
-            {tags.map((tag) => (
+            {tags.map((tag, index) => (
               <Text
+                key={index}
                 flexWrap='wrap'
                 fontSize='xs'
                 letterSpacing='wide'

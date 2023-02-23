@@ -10,7 +10,7 @@ import Projects from '../components/Projects';
 import { RightBar } from '../components/RightBar';
 import SectionHeading from '../components/SectionHeading';
 import { VideoSection } from '../components/VideoCard';
-import SchemaJson from '../components/SchemaJson';
+import { addSchemaLdHome } from '../constants/jsonSchemaLd';
 
 export function Main(props) {
   return (
@@ -26,6 +26,7 @@ export function Main(props) {
 }
 
 function App() {
+
   return (
     <>
       <Head>
@@ -36,7 +37,7 @@ function App() {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="Online Portfólio" />
+        <meta name="description" content="Portfólio de Paulo Moutinho" />
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
@@ -55,13 +56,14 @@ function App() {
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:description" content="Paulo Moutinho Portfólio" />
-        <meta name="twitter:title" content="Paulo Moutinho | Portfólio" />
-        <meta name="twitter:image" content="/assets/paulomoutinho.jpg" />
+        <script
+        id="SchemaJsonLd"
+        key="SchemaJsonLd"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addSchemaLdHome()}
+      />
       </Head>
       <Box bg="generalBackground" color="bodyText">
-        <SchemaJson />
         <Header />
         <LeftBar />
         <RightBar />
