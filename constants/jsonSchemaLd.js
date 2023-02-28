@@ -3,7 +3,7 @@ export function addSchemaLdHome() {
     __html: `
       {
         "@context": "https://schema.org/", 
-        "@type": "Portifólio", 
+        "@type": "Portfolio", 
         "url": "https://paulomoutinho.vercel.app/",
         "name": "Paulo Moutinho",
         "image": "/public/assets/paulomoutinho.jpg",
@@ -32,7 +32,7 @@ export function addShemaLdProjects() {
     __html: `
         {
             "@context": "https://schema.org/", 
-            "@type": "Projetos",
+            "@type": "Projects",
             "name": "Veja mais projetos",
             "url": "https://paulomoutinho.vercel.app/projects",
             "jobTitle": "Software Engineer",
