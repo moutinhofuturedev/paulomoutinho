@@ -53,7 +53,7 @@ export default function PageProjects() {
             </Box>
             <Stack spacing={8}>
               <ProjectCard
-                title="Goog Form"
+                title="Good Form"
                 description="Projeto desenvolvido com Next e Chakra UI. Foco no desenvolvimento de formulário usando React Hook Form com validações fáceis é flexíveis,
                 Api com Axios e back end com Json-Server."
                 src="/assets/good-form.png"
