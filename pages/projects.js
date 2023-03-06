@@ -21,7 +21,7 @@ export default function PageProjects() {
           <meta name="theme-color" content="#ffffff" />
           <meta
             name="description"
-            content="Projetos para portifólio de Paulo Moutinho"
+            content="Projetos para portfólio de Paulo Moutinho"
           />
           <meta
             name="robots"
