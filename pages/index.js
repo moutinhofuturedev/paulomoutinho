@@ -37,7 +37,7 @@ function Home() {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="Portfólio de Paulo Moutinho" />
+        <meta name="description" content="Paulo Moutinho Software Engineer - Frontend na Viahub" />
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
