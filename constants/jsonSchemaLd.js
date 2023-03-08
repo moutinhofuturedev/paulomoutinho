@@ -1,29 +1,40 @@
 export function addSchemaLdHome() {
   return {
     __html: `
-      {
-        "@context": "https://schema.org/", 
-        "@type": "Portfolio", 
-        "url": "https://paulomoutinho.vercel.app/",
+    {
+      "@context": "https://schema.org/", 
+      "@type": "NewsArticle",
+      "headline": "Paulo Moutinho Portfólio",
+      "image": "/public/assets/paulomoutinho.jpg",
+      "jobTitle": "Software Engineer",
+      "category": "Front End",
+      "description": "Sou um desenvolvedor iniciando uma jornada no mundo da programação e suas tecnologias incríveis. Atualmente, trabalho como Software Engineer Junior na compania Via...",
+      "brand": "Viahub",
+      "author": {
+        "@type": "Person",
         "name": "Paulo Moutinho",
-        "image": "/public/assets/paulomoutinho.jpg",
-        "jobTitle": "Software Engineer",
-        "category": "Front End",
-        "description": "Sou um desenvolvedor iniciando uma jornada no mundo da programação e suas tecnologias incríveis. Atualmente, trabalho como Software Engineer Junior na compania Via...",
-        "brand": "Via",
-        "author": {
-          "@type": "Person",
-          "name": "Paulo Moutinho",
-          "email": "mailto:paulo_vicali@icloud.com"
-        },
-        "socials": [
-          "https://github.com/moutinhofuturedev",
-          "https://twitter.com/PauloMoutinho19",
-          "https://www.instagram.com/paulo_mmoutinho/?hl=pt-br",
-          "https://www.linkedin.com/in/paulomoutinhovitor/"
-        ]
-      }
-      `,
+        "url": "https://paulomoutinho.vercel.app/",
+        "email": "paulo_vicali@icloud.com"
+      },
+       "sharedContent": [
+         {
+           "@type":"WebPage",
+           "headline": "Github",
+           "url": "https://github.com/moutinhofuturedev"
+         },
+         {
+           "@type":"WebPage",
+           "headline": "Linkedin",
+           "url": "https://www.linkedin.com/in/paulomoutinhovitor/"
+         },
+         {
+           "@type":"WebPage",
+           "headline": "Instagram",
+           "url": "https://www.instagram.com/paulo_mmoutinho/"
+         }
+       ]
+    }
+    `,
   };
 }
 
@@ -32,36 +43,36 @@ export function addShemaLdProjects() {
     __html: `
         {
             "@context": "https://schema.org/", 
-            "@type": "Projects",
-            "name": "Veja mais projetos",
-            "url": "https://paulomoutinho.vercel.app/projects",
+            "@type": "NewsArticle",
+            "headline": "Paulo Moutinho Projetos",
             "jobTitle": "Software Engineer",
             "category": "Front End", 
             "description": "Veja mais projetos",
             "author": {
                 "@type": "Person",
                 "name": "Paulo Moutinho",
+                "url": "https://paulomoutinho.vercel.app/projects",
                 "email": "mailto:paulo_vicali@icloud.com"
               },
-              "projects": [
+              "sharedContent": [
                 {
-                    "@type": "project",
-                    "name": "Good Form",
+                    "@type": "WebPage",
+                    "headline": "Good Form",
                     "url": "https://good-form.vercel.app/"
                 },
                 {
-                    "@type": "project",
-                    "name": "Linktree",
+                    "@type": "WebPage",
+                    "headline": "Linktree",
                     "url": "https://linktree-moutinho.vercel.app/"
                 },
                 {
-                    "@type": "project",
-                    "name": "DashGo",
+                    "@type": "WebPage",
+                    "headline": "DashGo",
                     "url": "https://dash-go-psi.vercel.app/"
                 },
                 {
-                    "@type": "project",
-                    "name": "Pricing UI",
+                    "@type": "WebPage",
+                    "headline": "Pricing UI",
                     "url": "https://pricing-ui-plum.vercel.app/"
                 },
               ]
