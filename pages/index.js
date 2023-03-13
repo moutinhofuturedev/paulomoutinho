@@ -12,20 +12,32 @@ import SectionHeading from '../components/SectionHeading';
 import { VideoSection } from '../components/VideoCard';
 import { addSchemaLdHome } from '../constants/jsonSchemaLd';
 
+import data from "../data.json"
+
 export function Main(props) {
   return (
     <Box
-      as='main'
-      maxW='1400px'
-      mx='auto'
-      minH='100vh'
-      paddingX={{ base: '32px', md: '100px' }}
+      as="main"
+      maxW="1400px"
+      mx="auto"
+      minH="100vh"
+      paddingX={{ base: "32px", md: "100px" }}
       {...props}
     />
   );
 }
 
-function Home() {
+export function getStaticProps() {
+  const response = data
+
+  return {
+    props: {
+      response
+    },
+  };
+}
+
+function Home({ response }) {
 
   return (
     <>
@@ -37,7 +49,10 @@ function Home() {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="Paulo Moutinho Software Engineer - Frontend na Viahub" />
+        <meta
+          name="description"
+          content="Paulo Moutinho Software Engineer - Frontend na Viahub"
+        />
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
@@ -57,11 +72,11 @@ function Home() {
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
         <script
-        id="SchemaJsonLd"
-        key="SchemaJsonLd"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={addSchemaLdHome()}
-      />
+          id="SchemaJsonLd"
+          key="SchemaJsonLd"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addSchemaLdHome()}
+        />
       </Head>
       <Box bg="generalBackground" color="bodyText">
         <Header />
@@ -78,8 +93,9 @@ function Home() {
               fontSize={{ base: "32px", md: "60px" }}
               color="headingText"
             >
-              Paulo Moutinho.
-              <br></br>Software Engineer 🕹 | Front End
+              {response.home.name}
+              <br></br>
+              {response.home.jobTitle}
             </Heading>
 
             <Text
@@ -89,11 +105,7 @@ function Home() {
               maxWidth="760px"
               fontSize="lg"
             >
-              Sou um desenvolvedor iniciando uma jornada no mundo da programação
-              e suas tecnologias incríveis. Atualmente, trabalho como Software
-              Engineer Junior na compania Via, atuando com as tecnologias mais
-              modernas no Front End para melhorar o SEO das páginas de Casas
-              Bahia, Extra e Ponto.
+              {response.home.description}
             </Text>
             <Button
               variant="outline"
@@ -180,7 +192,13 @@ function Home() {
               Ver mais artigos
             </Button>
           </Box>
-          <AboutMe />
+          <AboutMe
+            textOne={response.about.textOne}
+            textTwo={response.about.textTwo}
+            textThree={response.about.textThree}
+            textFour={response.about.textFour}
+            textFive={response.about.textFive}
+          />
           <VStack alignItems="flex-start">
             <Projects />
             <Link href="/projects" passHref>
