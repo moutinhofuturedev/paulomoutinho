@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import { Box, Stack, Text, Heading, Button } from "@chakra-ui/react"
-import Navigation from "../components/Header"
+import { Header } from "../components/Header"
 import { LeftBar } from "../components/LeftBar"
 import { RightBar } from "../components/RightBar"
-import SectionHeading from '../components/SectionHeading';
-import ProjectCard from '../components/ProjectCard';
+import { SectionHeading } from '../components/SectionHeading';
+import { ProjectCard } from '../components/ProjectCard';
 import { Main } from '.';
 import { addShemaLdProjects } from '../constants/jsonSchemaLd';
 
@@ -44,7 +44,7 @@ export default function PageProjects() {
           />
         </Head>
         <Box bg="generalBackground" color="bodyText">
-          <Navigation />
+          <Header />
           <LeftBar />
           <RightBar />
           <Main>

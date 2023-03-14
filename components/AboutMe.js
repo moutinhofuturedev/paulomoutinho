@@ -1,10 +1,10 @@
 import { Box, Flex, Icon, List, ListItem, SimpleGrid, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import React from 'react';
-import SectionHeading from './SectionHeading';
+import { SectionHeading } from './SectionHeading';
 import { SiJavascript, SiHtml5, SiTailwindcss, SiChakraui, SiTypescript, SiReact, SiNextdotjs, SiFigma } from 'react-icons/si'
 
-function AboutMe(props) {
+export function AboutMe(props) {
   return (
     <Flex
       as="section"
@@ -81,5 +81,3 @@ function AboutMe(props) {
     </Flex>
   );
 }
-
-export default AboutMe;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heading, Box } from '@chakra-ui/react';
 
-function SectionHeading({ number, children, ...props }) {
+export function SectionHeading({ number, children, ...props }) {
   return (
     <Heading
       as='h2'
@@ -37,5 +37,3 @@ function SectionHeading({ number, children, ...props }) {
     </Heading>
   );
 }
-
-export default SectionHeading;

@@ -2,13 +2,13 @@ import { Box, Button, Heading, SimpleGrid, Text, VStack } from '@chakra-ui/react
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import AboutMe from '../components/AboutMe';
-import BlogCard from '../components/BlogCard';
-import Header from '../components/Header';
+import { AboutMe } from '../components/AboutMe';
+import { BlogCard } from '../components/BlogCard';
+import { Header } from '../components/Header';
 import { LeftBar } from '../components/LeftBar';
-import Projects from '../components/Projects';
+import { Projects } from '../components/Projects';
 import { RightBar } from '../components/RightBar';
-import SectionHeading from '../components/SectionHeading';
+import { SectionHeading } from '../components/SectionHeading';
 import { VideoSection } from '../components/VideoCard';
 import { addSchemaLdHome } from '../constants/jsonSchemaLd';
 
