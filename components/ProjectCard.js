@@ -25,7 +25,7 @@ export function LinkButton({ icon, link, size, color, label, ...props }) {
   );
 }
 
-function ProjectCard({ tags, title, description, src, link, link2, ...props }) {
+export function ProjectCard({ tags, title, description, src, link, link2, ...props }) {
   return (
     <Box
       as='article'
@@ -94,5 +94,3 @@ function ProjectCard({ tags, title, description, src, link, link2, ...props }) {
     </Box>
   );
 }
-
-export default ProjectCard;

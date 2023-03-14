@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Link, SimpleGrid, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import * as React from 'react';
 
-const VideoCard = (props) => {
+export const VideoCard = (props) => {
   const { title, href, description, media } = props;
   return (
     <Box

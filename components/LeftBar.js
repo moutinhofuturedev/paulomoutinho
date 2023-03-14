@@ -23,7 +23,7 @@ export function HoverLink({ link, label, ...props }) {
   );
 }
 
-function SocialLink({ icon, label, link, ...rest }) {
+export function SocialLink({ icon, label, link, ...rest }) {
   return (
     <Box as='li' {...rest}>
       <HoverLink link={link} label={label}>

@@ -1,9 +1,9 @@
 import { Box, Stack } from '@chakra-ui/react';
 import React from 'react';
-import ProjectCard from './ProjectCard';
-import SectionHeading from './SectionHeading';
+import { ProjectCard } from './ProjectCard';
+import { SectionHeading } from './SectionHeading';
 
-function Projects(props) {
+export function Projects(props) {
   return (
     <Box paddingY='150px' id='projects' as='section' {...props}>
       <SectionHeading number='04.'>Algumas coisas que desenvolvi</SectionHeading>
@@ -36,5 +36,3 @@ function Projects(props) {
     </Box>
   );
 }
-
-export default Projects;

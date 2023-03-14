@@ -3,7 +3,7 @@ import React from 'react';
 import { MdOpenInNew } from 'react-icons/md';
 import { LinkButton } from './ProjectCard';
 
-function BlogCard({ link, title, details, date }) {
+export function BlogCard({ link, title, details, date }) {
   return (
     <Box
       as='article'
@@ -36,5 +36,3 @@ function BlogCard({ link, title, details, date }) {
     </Box>
   );
 }
-
-export default BlogCard;

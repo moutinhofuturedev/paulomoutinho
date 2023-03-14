@@ -28,7 +28,7 @@ const Logo = () => (
   </Flex>
 );
 
-function Navigation() {
+export function Header() {
   const { toggleColorMode, colorMode } = useColorMode();
 
   return (
@@ -98,5 +98,3 @@ function Navigation() {
     </Box>
   );
 }
-
-export default Navigation;
