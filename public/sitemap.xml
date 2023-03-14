@@ -7,7 +7,7 @@ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <image:loc>https://paulomoutinho.vercel.app/paulomoutinho.jpg</image:loc>
     </image:image>
 
-    <lastmod>2023-03-08</lastmod>
+    <lastmod>2023-03-14</lastmod>
 
     <changefreq>monthly</changefreq>
 
@@ -16,7 +16,7 @@ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
       <loc>https://paulomoutinho.vercel.app/projects</loc>
 
-      <lastmod>2023-03-08</lastmod>
+      <lastmod>2023-03-014</lastmod>
 
       <changefreq>monthly</changefreq>
 
