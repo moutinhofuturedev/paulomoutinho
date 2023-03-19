@@ -8,7 +8,7 @@ export function addSchemaLdHome() {
       "image": "/public/assets/paulomoutinho.jpg",
       "jobTitle": "Software Engineer",
       "category": "Front End",
-      "description": "Sou um desenvolvedor iniciando uma jornada no mundo da programação e suas tecnologias incríveis. Atualmente, trabalho como Software Engineer Junior na compania Via...",
+      "description": "Sou um desenvolvedor junior me especializando em tecnologias como React.js, Next.js e Typescript. Atualmente, trabalho como Software Engineer na Viahub ( Via ), atuando com tecnologias no Frontend e SEO para otimizar as páginas de Casas Bahia, Ponto e Extra.",
       "brand": "Viahub",
       "author": {
         "@type": "Person",
