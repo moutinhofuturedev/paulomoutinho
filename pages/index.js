@@ -51,7 +51,7 @@ function Home({ response }) {
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="Paulo Moutinho Software Engineer - Frontend na Viahub"
+          content="Atualmente,trabalho como Software Engineer na Viahub(Via),atuando com tecnologias no Frontend e SEO para otimizar as páginas de Casas Bahia,Ponto e Extra."
         />
         <meta
           name="robots"
